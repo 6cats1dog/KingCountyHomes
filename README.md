@@ -6,11 +6,11 @@
 
 *March 26, 2021*
 
-# Overview
+## Overview
 
 This project uses the King County House Sales dataset, which can be found in kc_house_data.csv in the data folder in this repo. The description of the column names can be found in column_names.md. For this project, I will use regression modeling to analyze house sales in a northwestern county.
 
-# Business Problem
+## Business Problem
 ## Stakeholders
 * The stakeholders in this project is Ramtuck Realty Group
 ## Consumer Use
