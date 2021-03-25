@@ -1,5 +1,7 @@
 # King County House Sales Data Analysis Project
-*Andres Ramirez*
+*Created by Andres Ramirez
+*Flatiron Data Science 011121 Cohort
+*March 26, 2021
 
 # Overview
 
