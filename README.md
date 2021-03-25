@@ -7,8 +7,7 @@
 *March 26, 2021*
 
 ## Overview
-
-This project uses the King County House Sales dataset, which can be found in kc_house_data.csv in the data folder in this repo. The description of the column names can be found in column_names.md. For this project, I will use regression modeling to analyze house sales in a northwestern county.
+* This project uses the King County House Sales dataset, which can be found in kc_house_data.csv in the data folder in this repo. The description of the column names can be found in column_names.md. For this project, I will use regression modeling to analyze house sales in a northwestern county.
 
 ## Business Problem
 ## Stakeholders
@@ -16,7 +15,7 @@ This project uses the King County House Sales dataset, which can be found in kc_
 ## Consumer Use
 * Ramtuck Realty group will use the results obtained from this project to help their clients who have made specific requests about the home they are looking for within King County.
 ## Data Understanding
-We will be focusing on price as our target variable since it is dependent on various features present on our dataset. Presented below is the outline and description of the columns present in our dataset.
+* We will be focusing on price as our target variable since it is dependent on various features present on our dataset. Presented below is the outline and description of the columns present in our dataset.
 
 ### Column Names and descriptions for Kings County Data Set
 * **id** - unique identified for a house
@@ -63,7 +62,7 @@ We will be focusing on price as our target variable since it is dependent on var
 -Numpy
 
 ## Data Used:
--kc_house_data.csv 
+- kc_house_data.csv 
 
 
 
