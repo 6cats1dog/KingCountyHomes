@@ -1,4 +1,5 @@
 # King County House Sales Data Analysis Project
+![KC](https://user-images.githubusercontent.com/74560236/112411481-9a0d6a00-8ce2-11eb-95a3-9f3aa482e987.jpg)
 
 *Created by Andres Ramirez*
 
