@@ -15,10 +15,10 @@ This project uses the King County House Sales dataset, which can be found in kc_
 * The stakeholders in this project is Ramtuck Realty Group
 ## Consumer Use
 * Ramtuck Realty group will use the results obtained from this project to help their clients who have made specific requests about the home they are looking for within King County.
-** Data Understanding
+## Data Understanding
 We will be focusing on price as our target variable since it is dependent on various features present on our dataset. Presented below is the outline and description of the columns present in our dataset.
 
-** Column Names and descriptions for Kings County Data Set
+### Column Names and descriptions for Kings County Data Set
 * **id** - unique identified for a house
 * **date** - house was sold
 * **price** - is prediction target
