@@ -70,6 +70,7 @@
 ## Featured Notebooks and Analysis
 * [Presentation](https://docs.google.com/presentation/d/1ep6QVmJze2U1TrFiimT-Det1YxSy9ZiZHv4t833gqoA/edit?usp=sharing)
 * [Jupyter Notebook](https://github.com/6cats1dog/KingCountyHomes/blob/main/King%20County%20House%20Sale%20Data%20Analysis.ipynb)
+* [Jupyter Notebok PDF](https://github.com/6cats1dog/KingCountyHomes/blob/main/King%20County%20House%20Sale%20Data%20Analysis.pdf)
 * [ReadMe](https://github.com/6cats1dog/KingCountyHomes/blob/main/README.md)
 * [Presentation PDF](https://github.com/6cats1dog/KingCountyHomes/blob/main/Presentation%20for%20King%20County%20Home%20Sales%20by%20Andres%20Ramirez.pdf)
 * [Data](https://github.com/6cats1dog/KingCountyHomes/blob/main/kc_house_data.csv)
