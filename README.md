@@ -60,7 +60,7 @@
 - Pandas
 - Jupyter Notebook
 - Google Slides
--Numpy
+- Numpy
 
 ## Data Used:
 - kc_house_data.csv 
