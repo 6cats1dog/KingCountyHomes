@@ -48,7 +48,31 @@
 
 
 ## Methods:
-* This project utlizises decriptive statistics that haelp inform predicitive modeling. The data is prepared through srubbing cleaningnin order to prepare it for feature engineering and modeling. The data also underwent various tests to align with the assumptions of Linear Regression including identifying or rectifying instances of multicollinearity, normality, linearity heterscedastiticty, homoescedasticity, skewness, kurtosis, and outliers.  In order to accomplish this it was important to incorporate the concepts of orinary least Squares, single linear regression, multiple linear regression, train-test-splits, correlation coefficients, mean absolute error, mean squared error, root mean squared error, cross validation, r squared, and log transformations
+* This project utlizises decriptive statistics that haelp inform predicitive modeling. The data is prepared through srubbing cleaningnin order to prepare it for feature engineering and modeling. The data also underwent various tests to align with the assumptions of Linear Regression including identifying or rectifying instances of multicollinearity, normality, linearity heterscedastiticty, homoescedasticity, skewness, kurtosis, and outliers.  In order to accomplish this it was important to incorporate the concepts of orinary least Squares, single linear regression, multiple linear regression, train-test-splits, correlation coefficients, mean absolute error, mean squared error, root mean squared error, cross validation, r squared, and log transformations.
+
+## Results:
+#### The biggest features affecting price when all other features held constant are:
+* Grade of the home
+* Square footage of the home not including the basement
+* Square footage of the living space of the nearest 15 neighbors.
+
+<img width="901" alt="Grade vs Price" src="https://user-images.githubusercontent.com/74560236/112909681-25a24480-90af-11eb-81c8-002a1a7c40de.png">
+
+* This image is a desnity map that illustrates the effect of Grade vs Price. While there are of course outliers in our data we can state with confidence that as the grade of the home increases, the price increases, as evidenced by th darker orange and red areas. The reverse is also true and lower grade and price are reflected by lighter green areas.
+
+## Conclusions:
+
+* With a R-squared of 0.87, an MAE of 75,000 USD, and a RMSE averaging around 136,000 USD, our model seems to have significant predictive power. There is always additional room for model iteration and closer analysis of factors that may be limiting the quality of the model, its current levels promote an acceptable model when compared to our first model's values. The assumptions made in each test proved to be insightful regarding what features would positively or negatively impact the validity of our model. We are able to see with our final model some of the impacts that various features have on our target variable 'y' in order to better inform our stakeholders.
+
+* For grade vs. price we were able to determine a coefficient of 0.0957, which leads to a change of 10.04% in price for every increment, while all other variables are held constant. For sqft above vs. price we were able to determine a coefficient of 0.1113, which leads to a change of 11.77% in price for every increment, while all other variables are held constant. For log of sqft_living15 vs. price we were able to determine a coefficient of 0.1579, which leads to a change of 17.10% in price for every increment, while all other variables are held constant. These were calculated by computing e^(coefficient).
+
+* From our visualizations we can note that there are also price increases around economic hubs and city centers. As assumed, prices also increase with proximity to waterfront as well. As we move further away from main cities such as Bellevue and Seattle, prices tend to decrease, while it is also important to note that there are outliers in the data regarding this point. High prices outside of the city can be accounted for by grade and lot size as they can be assumed to be large homes (i.e. mansions) which sizable land associated with them.
+
+## Future Work:
+* Future work that could be done would include optimizing our model with feature engineering, namely adding a feature that could help meaure home prices based on their distance from major economic hubs or major locations of employment. Future work could also include optimizing the model to determine home cost based on its approximate location to main intestate and highways, since this can be an advantegeous feature for some home buyers who wish to be far from the bustle of living within a major city, but relatively easy to access should they need to travel in.
+
+* Another important consideration to make to future work can involve the impact that homes can be in a reliabily modernized neighbohood. Features such as the presence or option for fiber optic internet connection, reliable satillite services and other modern amenitites may place a great role in cost and attractiveness. This is an important feature as potential home buyers may already be or are considering working remotely from home, but may be limited by currently existing connection limits.
+
 
 ## Technologies:
 - Python
