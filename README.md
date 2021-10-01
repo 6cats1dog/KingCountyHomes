@@ -48,7 +48,7 @@
 
 
 ## Methods:
-* This project utlizises decriptive statistics that haelp inform predicitive modeling. The data is prepared through srubbing cleaningnin order to prepare it for feature engineering and modeling. The data also underwent various tests to align with the assumptions of Linear Regression including identifying or rectifying instances of multicollinearity, normality, linearity heterscedastiticty, homoescedasticity, skewness, kurtosis, and outliers.  In order to accomplish this it was important to incorporate the concepts of orinary least Squares, single linear regression, multiple linear regression, train-test-splits, correlation coefficients, mean absolute error, mean squared error, root mean squared error, cross validation, r squared, and log transformations.
+* This project utilizes descriptive statistics that help inform predictive modeling. The data is prepared through scrubbing and cleaning in order to prepare it for feature engineering and modeling. The data also underwent various tests to align with the assumptions of Linear Regression including identifying or rectifying instances of multicollinearity, normality, linearity heteroscedastiticty, homoescedasticity, skewness, kurtosis, and outliers. In order to accomplish this it was important to incorporate the concepts of ordinary least Squares, single linear regression, multiple linear regression, train-test-splits, correlation coefficients, mean absolute error, mean squared error, root mean squared error, cross validation, r squared, and log transformations.
 
 ## Results:
 #### The biggest features affecting price when all other features held constant are:
