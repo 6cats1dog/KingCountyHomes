@@ -19,7 +19,7 @@
 * We will be focusing on price as our target variable since it is dependent on various features present on our dataset. Presented below is the outline and description of the columns present in our dataset.
 
 ### Column Names and descriptions for Kings County Data Set
-* **id** - unique identified for a house
+* **id** - unique identifier for a house
 * **date** - house was sold
 * **price** - is prediction target
 * **bedrooms** Number of Bedrooms/House
@@ -41,7 +41,7 @@
 * **sqft_living15** - The square footage of interior housing living space for the nearest 15 neighbors
 * **sqft_lot15** - The square footage of the land lots of the nearest 15 neighbors
 
-## For our purposes we will be disregarging the following columns in the data
+## For our purposes we will be disregarding the following columns in the data
 
 * **date**
 * **id**
@@ -58,7 +58,7 @@
 
 <img width="901" alt="Grade vs Price" src="https://user-images.githubusercontent.com/74560236/112909681-25a24480-90af-11eb-81c8-002a1a7c40de.png">
 
-* This image is a desnity map that illustrates the effect of Grade vs Price. While there are of course outliers in our data we can state with confidence that as the grade of the home increases, the price increases, as evidenced by th darker orange and red areas. The reverse is also true and lower grade and price are reflected by lighter green areas.
+* This image is a density map that illustrates the effect of Grade vs Price. While there are of course outliers in our data we can state with confidence that as the grade of the home increases, the price increases, as evidenced by the darker orange and red areas. The reverse is also true and lower grade and price are reflected by lighter green areas.
 
 ## Conclusions:
 
@@ -66,12 +66,12 @@
 
 * For grade vs. price we were able to determine a coefficient of 0.0957, which leads to a change of 10.04% in price for every increment, while all other variables are held constant. For sqft above vs. price we were able to determine a coefficient of 0.1113, which leads to a change of 11.77% in price for every increment, while all other variables are held constant. For log of sqft_living15 vs. price we were able to determine a coefficient of 0.1579, which leads to a change of 17.10% in price for every increment, while all other variables are held constant. These were calculated by computing e^(coefficient).
 
-* From our visualizations we can note that there are also price increases around economic hubs and city centers. As assumed, prices also increase with proximity to waterfront as well. As we move further away from main cities such as Bellevue and Seattle, prices tend to decrease, while it is also important to note that there are outliers in the data regarding this point. High prices outside of the city can be accounted for by grade and lot size as they can be assumed to be large homes (i.e. mansions) which sizable land associated with them.
+* From our visualizations we can note that there are also price increases around economic hubs and city centers. As assumed, prices also increase with proximity to the waterfront as well. As we move further away from main cities such as Bellevue and Seattle, prices tend to decrease, while it is also important to note that there are outliers in the data regarding this point. High prices outside of the city can be accounted for by grade and lot size as they can be assumed to be large homes (i.e. mansions) with sizable land associated with them.
 
 ## Future Work:
-* Future work that could be done would include optimizing our model with feature engineering, namely adding a feature that could help meaure home prices based on their distance from major economic hubs or major locations of employment. Future work could also include optimizing the model to determine home cost based on its approximate location to main intestate and highways, since this can be an advantegeous feature for some home buyers who wish to be far from the bustle of living within a major city, but relatively easy to access should they need to travel in.
+* Future work that could be done would include optimizing our model with feature engineering, namely adding a feature that could help measure home prices based on their distance from major economic hubs or major locations of employment. Future work could also include optimizing the model to determine home cost based on its approximate location to main interstate and highways, since this can be an advantageous feature for some home buyers who wish to be far from the bustle of living within a major city, but relatively easy to access should they need to travel in.
 
-* Another important consideration to make to future work can involve the impact that homes can be in a reliabily modernized neighbohood. Features such as the presence or option for fiber optic internet connection, reliable satillite services and other modern amenitites may place a great role in cost and attractiveness. This is an important feature as potential home buyers may already be or are considering working remotely from home, but may be limited by currently existing connection limits.
+* Another important consideration to make to future work can involve the impact that homes can be in a reliably modernized neighborhood. Features such as the presence or option for fiber optic internet connection, reliable satellite services and other modern amenities may play a great role in cost and attractiveness. This is an important feature as potential home buyers may already be or are considering working remotely from home, but may be limited by currently existing connection limits.
 
 
 ## Technologies:
